@@ -1,2 +1,13 @@
-# emorce-shinjuku
-Emorce Shinjuku Hub — JSON-driven config + full Lua (ercy fish, remote fire)
+# Emorce Shinjuku
+
+JSON-driven Shinjuku hub (ercy fishing + remote fire).
+
+## Load
+
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hexed00/emorce-shinjuku/main/loader.lua"))()
+```
+
+## Config
+
+Edit `shinjuku.json` — fish PD, remote fire, silent, aimbot defaults. Hub fetches it on run.

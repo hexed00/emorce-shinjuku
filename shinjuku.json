@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "name": "Emorce Shinjuku",
+  "fish": {
+    "CastDelay": 0.05,
+    "PostCastWait": 0.05,
+    "TugReactDelay": 0.05,
+    "TugTimeout": 40,
+    "Deadzone": 4,
+    "PredictFrames": 3
+  },
+  "remote": {
+    "FireRate": 0.03,
+    "Weapon": "Howa / Nambu",
+    "Range": 3000,
+    "NambuReloadEveryShot": true,
+    "NambuReloadGap": 0.05
+  },
+  "silent": {
+    "FOV": 140,
+    "HitChance": 100,
+    "Part": "Head"
+  },
+  "aimbot": {
+    "FOV": 200,
+    "Part": "Head",
+    "TriggerDelay": 0.08
+  }
+}
