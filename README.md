@@ -1,13 +1,18 @@
 # Emorce Shinjuku
 
-JSON-driven Shinjuku hub (ercy fishing + remote fire).
+JSON-driven Shinjuku hub (ercy fishing + remote fire + MasterESP features).
 
-## Load
+## Load in executor
 
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/hexed00/emorce-shinjuku/main/loader.lua"))()
 ```
 
-## Config
+## Config (`shinjuku.json`)
 
-Edit `shinjuku.json` — fish PD, remote fire, silent, aimbot defaults. Hub fetches it on run.
+Fetched on run. Edit fish PD / remote / silent / aimbot defaults:
+
+- fish: CastDelay 0.05, PostCastWait 0.05, TugReactDelay 0.05, TugTimeout 40, Deadzone 4, PredictFrames 3 (ercy)
+- remote: Nambu reloads every shot, Howa untouched
+
+Raw JSON: https://raw.githubusercontent.com/hexed00/emorce-shinjuku/main/shinjuku.json
